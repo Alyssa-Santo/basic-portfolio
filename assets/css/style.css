@@ -9,7 +9,6 @@ header {
 	width: 300px;
 	height: 60px;
 	color: #FFFFFF;
-	margin-left: 50px;
 	margin-top: -22px;
 	text-align: center;
 	padding-top: 39px;
@@ -20,8 +19,8 @@ header {
 
 h2 {
 	font-size: 24px;
-	padding-top: 0px;
-	padding-left: 15px;
+	margin-top: 25px;
+	margin-left: 15px;
 	color: #4aaaa4;
 }
 h3 {
@@ -32,15 +31,16 @@ h3 {
 }
 
 h4 {
-	position: s;
+	display: block;
+	position: absolute;
+	margin-top: 40px;
 	background: #4aaaa5;
 	color: #FFFFFF;
 	font-size: 15px;
-	padding: 5px;
-	width: 140px;
-	height: 5px;
+	padding-top: 5px;
+	width: 150px;
+	height: 20px;
 	text-align: center;
-
 }
 
 h5 {
@@ -50,11 +50,10 @@ h5 {
 }
 
 .container {
-	margin: 0 auto;
 	margin-left: 50px;
-	width: 100;
 	color: #777777;
 	background-image: url(asanoha-400px.png);
+	overflow: auto;
 }
 
 #tab-bar {
@@ -77,26 +76,18 @@ h5 {
 
 #centerbox {
 	margin-top: 25px;
-	width: 500px;
-	background-color: #FFFFFF;
-	float: left;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding: auto;
-}
-
-#portfoliobox {
-	margin-top: 25px;
 	width: 400px;
 	background-color: #FFFFFF;
 	float: left;
-	padding-top: 20px;
 
 }
 
 #portimage {
-	display: block;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
+
 
 #title {
 	margin-left: 20px;
@@ -105,9 +96,10 @@ h5 {
 }
 
 input[type=text], select {
-    width: 200px;
+    width: 250px;
     padding: 12px 20px;
     padding-left: 5px;
+    padding-right: 0px;
     margin: 8px 20px;
     display: inline-block;
     border: 1px solid #ccc;
@@ -116,7 +108,7 @@ input[type=text], select {
 }
 
 #message {
-    width: 400px;
+    width: 200px;
     height: 100px;
     margin: 8px 20px;
     display: inline-block;
