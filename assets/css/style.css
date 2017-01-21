@@ -29,11 +29,32 @@ h3 {
 	padding: 15px;
 	color: #000000;
 }
-
-h4 {
+h4{
 	display: block;
 	position: absolute;
-	margin-top: 40px;
+	margin-top: 60px;
+	margin-left: 20px;
+	background: #4aaaa5;
+	color: #FFFFFF;
+	font-size: 15px;
+	padding-top: 5px;
+	width: 150px;
+	height: 20px;
+	text-align: center;
+
+}
+
+h5 {
+	color: #4aaaa5;
+	font-size: 20px;
+	text-align: center;
+}
+
+h6{
+	position: absolute;
+	margin-left: 194px;
+	margin-top: -67px;
+		display: block;
 	background: #4aaaa5;
 	color: #FFFFFF;
 	font-size: 15px;
@@ -43,11 +64,19 @@ h4 {
 	text-align: center;
 }
 
-h5 {
-	color: #4aaaa5;
-	font-size: 20px;
-	text-align: center;
+
+#rpg {
+	position: absolute;
+	margin-left: 194px;
+	margin-top: -67px;
 }
+
+#rutgers {
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 60px;
+}
+
 
 .container {
 	margin-left: 50px;
@@ -64,6 +93,7 @@ h5 {
 	height: 80px;
 	padding-top: 20px;
 	text-align: right;
+
 }
 
 #navnames {
@@ -82,16 +112,20 @@ h5 {
 
 }
 
-#portimage {
+.portimage {
+	width: 150px;
 	margin-left: 20px;
-	margin-top: 20px;
+	margin-top: 30px;
 	margin-bottom: 20px;
+	/*margin-left: 20px;
+	margin-top: 30px;
+	margin-bottom: 20px;*/
 }
 
 
 #title {
 	margin-left: 20px;
-		font-size: 15px;
+	font-size: 15px;
 	color: #777777;
 }
 
@@ -110,7 +144,8 @@ input[type=text], select {
 #message {
     width: 200px;
     height: 100px;
-    margin: 8px 20px;
+    margin-left: 20px;
+    margin-top: 30px;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -120,12 +155,13 @@ input[type=text], select {
 }
 
 input[type=submit] {
-	background: #4aaaa5;
+	background: #4aaaa4;
 	width: 70px;
 	height: 25px;
 	color: #FFFFFF;
     margin-top: 8px;
 	margin-left: 20px;
+	margin-bottom: 20px;
 	border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -165,13 +201,17 @@ input[type=submit]:hover {
 #footer {
 	background-color: #666666;
 	position:fixed;
-   left:0px;
-   bottom:0px;
-   height:30px;
-   width:100%;
-   border-top: 6px solid black;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    border-top: 6px;
+    border-style: solid;
+    border-color: #4aaaa4;
    	color: #FFFFFF;
    	font-size: 10px;
    	text-align: center;
    	padding: 25px;
 }
+
+
